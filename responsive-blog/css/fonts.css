@@ -1,0 +1,13 @@
+@font-face {
+font-family: Cantarell-Regular;
+src: url("../fonts/Cantarell-Regular.ttf") format("ttf"),
+url("../fonts/Cantarell-Regular.woff") format("woff");
+font-weight: 400;
+}
+@font-face {
+font-family: TrendSansOne;
+src: url("../fonts/TrendSansOne.otf") format("otf"),
+url("../fonts/TrendSansOne.ttf") format("ttf");
+font-weight: 400;
+}
+

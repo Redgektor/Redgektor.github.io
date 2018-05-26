@@ -4,12 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Css-recipes-and-layouts</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <span class="logo__text">Racco</span>
+            <img class="logo__img" src="image/logo.png" alt="Raccoonblog">
+            <span class="logo__text">nblog</span>
+        </div>
+        <section class="menu">
+            <nav class="main-nav">
+                <div class="main-nav__btn">
+                    <span class="trigger"></span>
+                </div>
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a class="main-nav__link" href="#">Javascript</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="#">CSS</a></li>
+                    <li class="main-nav__item active"><a class="main-nav__link" href="#">Latest</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="#">Html</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="#">Design</a></li>
+                </ul>
+            </nav>
+            <div class="info-tab">
+                <div class="info-tab__item info-tab__item--about"></div>
+                <div class="info-tab__item info-tab__item--info"></div>
+                <div class="info-tab__item info-tab__item--tag"></div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="wrapper">
+            <aside class="info">
+                <div class="info-box info-box--about">
+                    <div class="info-box__text">
+                        <h3 class="info-box__title">About</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="info-box info-box--info">
+                    <div class="info-box__text">
+                        <h3 class="info-box__title">Some info</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="tag">
+                    <span class="tag__item">Racoon</span>
+                    <span class="tag__item">Racoon</span>
+                    <span class="tag__item">Racoon</span>
+                    <span class="tag__item">Dog</span>
+                    <span class="tag__item">Cat</span>
+                    <span class="tag__item">Developer</span>
+                    <span class="tag__item">Cat</span>
+                    <span class="tag__item">Racoon</span>
+                    <span class="tag__item">Dog</span>
+                    <span class="tag__item">Cat</span>
+                    <span class="tag__item">Racoon</span>
+                    <span class="tag__item">Racoon</span>
+                    <span class="tag__item">Coon</span>
+                    <span class="tag__item">Dog</span>
+                    <span class="tag__item">Cat</span>
+                    <span class="tag__item">Developer</span>
+                </div>
+            </aside>
+            <section class="blog-list">
+                <article class="post">
+                    <figure class="post__photo">
+                        <img src="upload/flowers.jpg" alt="#">
+                    </figure>
+                    <h2 class="post__title">Blogotitle of blogopost about blogoflowers</h2>
+                    <div class="post__info">
+                        <span class="post__time">22:58 Jan 01, 2014</span>
+                        <span class="post__author">by E. Hyperraccoon</span>
+                    </div>
+                    <div class="post__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="social">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a class="social__link fb" href="#"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link gg" href="#"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link tw" href="#"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link vk" href="#"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link ya" href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="post">
+                    <figure class="post__photo">
+                        <img src="upload/painting.jpg" alt="#">
+                    </figure>
+                    <h2 class="post__title">Blogotitle about colorful colors</h2>
+                    <div class="post__info">
+                        <span class="post__time">22:50 Jan 01, 2014</span>
+                        <span class="post__author">by E. Hyperraccoon</span>
+                    </div>
+                    <div class="post__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="social">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a class="social__link fb" href="#"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link gg" href="#"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link tw" href="#"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link vk" href="#"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link ya" href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+        </div>
+    </footer>
+    <script src="js/scripts.js" ></script>
 </body>
 </html>
